@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd"><key id="labelV" for="node" attr.name="labelV" attr.type="string"/><key id="name" for="node" attr.name="name" attr.type="string"/><key id="labelE" for="edge" attr.name="labelE" attr.type="string"/><key id="comment" for="edge" attr.name="comment" attr.type="string"/><key id="stars" for="edge" attr.name="stars" attr.type="int"/><key id="timestamp" for="edge" attr.name="timestamp" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="4128">
+      <data key="labelV">reviewer</data>
+      <data key="name">John Doe</data>
+    </node>
+    <node id="4256">
+      <data key="labelV">reviewer</data>
+      <data key="name">John Smith</data>
+    </node>
+    <node id="4288">
+      <data key="labelV">recipe</data>
+      <data key="name">Beef Bourguignon</data>
+    </node>
+    <node id="4232">
+      <data key="labelV">reviewer</data>
+      <data key="name">Jane Doe</data>
+    </node>
+    <node id="4168">
+      <data key="labelV">reviewer</data>
+      <data key="name">Sharon Smith</data>
+    </node>
+    <node id="8328">
+      <data key="labelV">recipe</data>
+      <data key="name">Carrot Soup</data>
+    </node>
+    <node id="4112">
+      <data key="labelV">reviewer</data>
+      <data key="name">Betsy Jones</data>
+    </node>
+    <node id="4184">
+      <data key="labelV">recipe</data>
+      <data key="name">Spicy Meatloaf</data>
+    </node>
+    <edge id="1z8-36o-36d-388" source="4128" target="4184">
+      <data key="labelE">rated</data>
+      <data key="comment">Really spicy - be careful!</data>
+      <data key="stars">4</data>
+      <data key="timestamp">2015-12-31T10:56:00.00Z</data>
+    </edge>
+    <edge id="1l0-36o-36d-3b4" source="4128" target="4288">
+      <data key="labelE">rated</data>
+      <data key="comment">Pretty tasty!</data>
+      <data key="stars">5</data>
+      <data key="timestamp">2014-01-01T05:15:00.00Z</data>
+    </edge>
+    <edge id="1lg-3a8-36d-3b4" source="4256" target="4288">
+      <data key="labelE">rated</data>
+      <data key="stars">4</data>
+      <data key="timestamp">2014-01-23T00:00:00.00Z</data>
+    </edge>
+    <edge id="2s1-39k-36d-3b4" source="4232" target="4288">
+      <data key="labelE">rated</data>
+      <data key="comment">Yummy!</data>
+      <data key="stars">5</data>
+      <data key="timestamp">2014-02-01T00:00:00.00Z</data>
+    </edge>
+    <edge id="369-39k-36d-6fc" source="4232" target="8328">
+      <data key="labelE">rated</data>
+      <data key="comment">Loved this soup! Yummy vegetarian!</data>
+      <data key="stars">5</data>
+      <data key="timestamp">2015-12-30T01:20:00.00Z</data>
+    </edge>
+    <edge id="1zd-37s-36d-388" source="4168" target="4184">
+      <data key="labelE">rated</data>
+      <data key="comment">Too spicy for me. Use less garlic.</data>
+      <data key="stars">3</data>
+      <data key="timestamp">2014-07-23T00:30:00.00Z</data>
+    </edge>
+    <edge id="1l5-37s-36d-3b4" source="4168" target="4288">
+      <data key="labelE">rated</data>
+      <data key="comment">It was okay.</data>
+      <data key="stars">3</data>
+      <data key="timestamp">2015-01-01T00:00:00.00Z</data>
+    </edge>
+  </graph>
+</graphml>

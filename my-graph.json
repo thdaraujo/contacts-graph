@@ -1,0 +1,336 @@
+{
+  "id": 4232,
+  "label": "reviewer",
+  "properties": {
+    "name": [{
+      "id": "175-39k-1l1",
+      "value": "John Smith"
+    }]
+  }
+} {
+  "id": 8328,
+  "label": "reviewer",
+  "properties": {
+    "name": [{
+      "id": "2dt-6fc-1l1",
+      "value": "Sharon Smith"
+    }]
+  }
+} {
+  "id": 12424,
+  "label": "reviewer",
+  "properties": {
+    "name": [{
+      "id": "3kh-9l4-1l1",
+      "value": "Jane Doe"
+    }]
+  }
+} {
+  "id": 16520,
+  "label": "reviewer",
+  "outE": {
+    "rated": [{
+      "id": "7ip-cqw-7x1-cpc",
+      "inV": 16464,
+      "properties": {
+        "comment": "It was okay.",
+        "stars": 3,
+        "timestamp": "2015-01-01T00:00:00.00Z"
+      }
+    }, {
+      "id": "7wx-cqw-7x1-fwo",
+      "inV": 20616,
+      "properties": {
+        "comment": "Too spicy for me. Use less garlic.",
+        "stars": 3,
+        "timestamp": "2014-07-23T00:30:00.00Z"
+      }
+    }]
+  },
+  "properties": {
+    "name": [{
+      "id": "4r5-cqw-1l1",
+      "value": "Sharon Smith"
+    }]
+  }
+} {
+  "id": 4112,
+  "label": "reviewer",
+  "properties": {
+    "name": [{
+      "id": "16q-368-1l1",
+      "value": "Betsy Jones"
+    }]
+  }
+} {
+  "id": 4240,
+  "label": "reviewer",
+  "outE": {
+    "rated": [{
+      "id": "2s2-39s-7x1-cpc",
+      "inV": 16464,
+      "properties": {
+        "comment": "Yummy!",
+        "stars": 5,
+        "timestamp": "2014-02-01T00:00:00.00Z"
+      }
+    }, {
+      "id": "36a-39s-7x1-j2g",
+      "inV": 24712,
+      "properties": {
+        "comment": "Loved this soup! Yummy vegetarian!",
+        "stars": 5,
+        "timestamp": "2015-12-30T01:20:00.00Z"
+      }
+    }]
+  },
+  "properties": {
+    "name": [{
+      "id": "176-39s-1l1",
+      "value": "Jane Doe"
+    }]
+  }
+} {
+  "id": 8336,
+  "label": "reviewer",
+  "properties": {
+    "name": [{
+      "id": "2du-6fk-1l1",
+      "value": "Betsy Jones"
+    }]
+  }
+} {
+  "id": 20616,
+  "label": "recipe",
+  "inE": {
+    "rated": [{
+      "id": "6bu-9jk-7x1-fwo",
+      "outV": 12368,
+      "properties": {
+        "comment": "Really spicy - be careful!",
+        "stars": 4,
+        "timestamp": "2015-12-31T10:56:00.00Z"
+      }
+    }, {
+      "id": "7wx-cqw-7x1-fwo",
+      "outV": 16520,
+      "properties": {
+        "comment": "Too spicy for me. Use less garlic.",
+        "stars": 3,
+        "timestamp": "2014-07-23T00:30:00.00Z"
+      }
+    }]
+  },
+  "properties": {
+    "name": [{
+      "id": "5xt-fwo-1l1",
+      "value": "Spicy Meatloaf"
+    }]
+  }
+} {
+  "id": 24712,
+  "label": "recipe",
+  "inE": {
+    "rated": [{
+      "id": "36a-39s-7x1-j2g",
+      "outV": 4240,
+      "properties": {
+        "comment": "Loved this soup! Yummy vegetarian!",
+        "stars": 5,
+        "timestamp": "2015-12-30T01:20:00.00Z"
+      }
+    }]
+  },
+  "properties": {
+    "name": [{
+      "id": "74h-j2g-1l1",
+      "value": "Carrot Soup"
+    }]
+  }
+} {
+  "id": 4152,
+  "label": "book",
+  "inE": {
+    "authored": [{
+      "id": "1ze-380-5jp-37c",
+      "outV": 4176
+    }]
+  },
+  "properties": {
+    "ISBN": [{
+      "id": "1zb-37c-4qt",
+      "value": "0-394-40135-2"
+    }],
+    "year": [{
+      "id": "1l3-37c-3yd",
+      "value": 1968
+    }],
+    "name": [{
+      "id": "16v-37c-1l1",
+      "value": "The French Chef Cookbook"
+    }]
+  }
+} {
+  "id": 8248,
+  "label": "reviewer",
+  "properties": {
+    "name": [{
+      "id": "35z-6d4-1l1",
+      "value": "John Doe"
+    }]
+  }
+} {
+  "id": 12344,
+  "label": "reviewer",
+  "properties": {
+    "name": [{
+      "id": "4cn-9iw-1l1",
+      "value": "John Smith"
+    }]
+  }
+} {
+  "id": 16440,
+  "label": "reviewer",
+  "properties": {
+    "name": [{
+      "id": "5jb-coo-1l1",
+      "value": "Sharon Smith"
+    }]
+  }
+} {
+  "id": 20536,
+  "label": "reviewer",
+  "outE": {
+    "rated": [{
+      "id": "747-fug-7x1-cpc",
+      "inV": 16464,
+      "properties": {
+        "stars": 4,
+        "timestamp": "2014-01-23T00:00:00.00Z"
+      }
+    }]
+  },
+  "properties": {
+    "name": [{
+      "id": "6pz-fug-1l1",
+      "value": "John Smith"
+    }]
+  }
+} {
+  "id": 4176,
+  "label": "author",
+  "outE": {
+    "authored": [{
+      "id": "1ze-380-5jp-37c",
+      "inV": 4152
+    }]
+  },
+  "properties": {
+    "gender": [{
+      "id": "1l6-380-2dh",
+      "value": "F"
+    }],
+    "name": [{
+      "id": "16y-380-1l1",
+      "value": "Julia Child"
+    }]
+  }
+} {
+  "id": 8272,
+  "label": "reviewer",
+  "properties": {
+    "name": [{
+      "id": "362-6ds-1l1",
+      "value": "Betsy Jones"
+    }]
+  }
+} {
+  "id": 12368,
+  "label": "reviewer",
+  "outE": {
+    "rated": [{
+      "id": "5xm-9jk-7x1-cpc",
+      "inV": 16464,
+      "properties": {
+        "comment": "Pretty tasty!",
+        "stars": 5,
+        "timestamp": "2014-01-01T05:15:00.00Z"
+      }
+    }, {
+      "id": "6bu-9jk-7x1-fwo",
+      "inV": 20616,
+      "properties": {
+        "comment": "Really spicy - be careful!",
+        "stars": 4,
+        "timestamp": "2015-12-31T10:56:00.00Z"
+      }
+    }]
+  },
+  "properties": {
+    "name": [{
+      "id": "4cq-9jk-1l1",
+      "value": "John Doe"
+    }]
+  }
+} {
+  "id": 16464,
+  "label": "recipe",
+  "inE": {
+    "rated": [{
+      "id": "2s2-39s-7x1-cpc",
+      "outV": 4240,
+      "properties": {
+        "comment": "Yummy!",
+        "stars": 5,
+        "timestamp": "2014-02-01T00:00:00.00Z"
+      }
+    }, {
+      "id": "5xm-9jk-7x1-cpc",
+      "outV": 12368,
+      "properties": {
+        "comment": "Pretty tasty!",
+        "stars": 5,
+        "timestamp": "2014-01-01T05:15:00.00Z"
+      }
+    }, {
+      "id": "7ip-cqw-7x1-cpc",
+      "outV": 16520,
+      "properties": {
+        "comment": "It was okay.",
+        "stars": 3,
+        "timestamp": "2015-01-01T00:00:00.00Z"
+      }
+    }, {
+      "id": "747-fug-7x1-cpc",
+      "outV": 20536,
+      "properties": {
+        "stars": 4,
+        "timestamp": "2014-01-23T00:00:00.00Z"
+      }
+    }]
+  },
+  "properties": {
+    "name": [{
+      "id": "5je-cpc-1l1",
+      "value": "Beef Bourguignon"
+    }]
+  }
+} {
+  "id": 4208,
+  "label": "reviewer",
+  "properties": {
+    "name": [{
+      "id": "172-38w-1l1",
+      "value": "Jane Doe"
+    }]
+  }
+} {
+  "id": 4344,
+  "label": "reviewer",
+  "properties": {
+    "name": [{
+      "id": "17j-3co-1l1",
+      "value": "John Doe"
+    }]
+  }
+}
